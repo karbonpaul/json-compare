@@ -162,5 +162,13 @@ describe 'Json compare' do
       }
       result.should eq(expected)
     end
+
+    it "should not be empty hash" do
+      json1 = File.new('spec/fixtures/exclusions1.json', 'r')
+      json2 = File.new('spec/fixtures/exclusions2.json', 'r')
+      old, new = Yajl::Parser.parse(json1), Yajl::Parser.parse(json2)
+      result = JsonCompare.get_diff(old, new, ['meta','id'])
+      result.should_not eq({})
+    end
   end
 end

@@ -1,0 +1,32 @@
+{
+  "timeline": {
+    "id": "KWfyCBYsRa",
+    "owner": {
+      "id": "KWfyCBYsRa",
+      "type": "WorkItem"
+    },
+    "meta": null,
+    "items": [
+      {
+        "id": "f6756ae8-c1ee-499f-a79c-17feecedd4c7",
+        "entity": {
+          "initiator": "KWfyCCCBZS",
+          "associatedPersonContact": null,
+          "associatedOrganization": null,
+          "associatedWorkItem": "KWfyCBYsRa",
+          "workItemClient": "KWfyCC0Ffq",
+          "workItemClientType": null,
+          "newWorkItemStatus": null,
+          "assignmentMessage": null,
+          "associatedEmail": null,
+          "assignee": null,
+          "id": "KWfyCBZ0Xe",
+          "type": "event-work-item-created",
+          "postDate": "2015-10-23T19:50:50Z",
+          "editDate": null,
+          "timelineItem": "KWfyCBYsRa"
+        }
+      }
+    ]
+  }
+}
